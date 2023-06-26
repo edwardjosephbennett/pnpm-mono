@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: false
+  excludeLinksFromLockfile: false
+
 importers:
 
   .:
@@ -43,6 +47,45 @@ importers:
       shared-ui:
         specifier: workspace:^
         version: link:../../packages/shared-ui
+      tailwindcss:
+        specifier: 3.3.2
+        version: 3.3.2
+      typescript:
+        specifier: 5.0.4
+        version: 5.0.4
+
+  apps/test-next-app-2:
+    dependencies:
+      '@types/node':
+        specifier: 20.1.0
+        version: 20.1.0
+      '@types/react':
+        specifier: 18.2.6
+        version: 18.2.6
+      '@types/react-dom':
+        specifier: 18.2.4
+        version: 18.2.4
+      autoprefixer:
+        specifier: 10.4.14
+        version: 10.4.14(postcss@8.4.23)
+      eslint:
+        specifier: 8.40.0
+        version: 8.40.0
+      eslint-config-next:
+        specifier: 13.4.1
+        version: 13.4.1(eslint@8.40.0)(typescript@5.0.4)
+      next:
+        specifier: 13.4.1
+        version: 13.4.1(react-dom@18.2.0)(react@18.2.0)
+      postcss:
+        specifier: 8.4.23
+        version: 8.4.23
+      react:
+        specifier: 18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: 18.2.0
+        version: 18.2.0(react@18.2.0)
       tailwindcss:
         specifier: 3.3.2
         version: 3.3.2

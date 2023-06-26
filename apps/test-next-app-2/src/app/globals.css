@@ -18,5 +18,10 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  @apply bg-gradient-to-r from-purple-700 to-purple-900;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }

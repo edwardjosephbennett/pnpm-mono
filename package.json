@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "packageManager": "pnpm@7.5.1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "next:dev": "pnpm --filter test-next-app dev"
+    "dev:test-app": "pnpm --filter test-next-app dev",
+    "dev:test-app-2": "pnpm --filter test-next-app-2 dev",
+    "dev:run-both": "pnpm nx run-many --target=dev --all",
+    "build:all": "pnpm nx run-many --target=build --all"
   },
   "keywords": [],
   "author": "",
