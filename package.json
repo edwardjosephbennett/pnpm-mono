@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:test-app": "pnpm --filter test-next-app dev",
     "dev:test-app-2": "pnpm --filter test-next-app-2 dev",
-    "dev:run-all": "pnpm nx run-many --target=develop --all",
+    "dev:run-all": "pnpm nx run-many --target=serve --p --all",
     "build:all": "pnpm nx run-many --target=build --all"
   },
   "keywords": [],

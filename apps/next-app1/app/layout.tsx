@@ -11,8 +11,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" className="w-full h-full min-h-screen">
+      <body className="prose prose-slate w-full h-full min-h-screen flex justify-center items-center bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-yellow-100 via-yellow-300 to-yellow-500">{children}</body>
     </html>
   );
 }
